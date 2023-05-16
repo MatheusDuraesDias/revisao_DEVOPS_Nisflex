@@ -39,7 +39,7 @@ jobs:
       name: Deploy no docker
       with:
         image: matheus230100/revisao1
-        tags: latest
+        tags: ${{ github.run_number }}
         registry: docker.io
         dockerfile: dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}

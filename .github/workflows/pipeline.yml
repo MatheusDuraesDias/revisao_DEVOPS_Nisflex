@@ -32,4 +32,4 @@ jobs:
     - name: Executado Projeto
       run: | 
           cd src
-          java -cp . Main
+          java c . Main
